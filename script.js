@@ -57,7 +57,6 @@ previewButtonClick.addEventListener("click", () => {
 const renderNewSongs = function (className, section, position, data) {
   const html = `
         <div class="${className}">
-        <audio src=${data?.hub?.actions[1].uri} class="audio"></audio>
         <div>
         <img src=${data.images?.coverart} alt="life_in_a_bubble" class="play__test"/>
                 </div>
